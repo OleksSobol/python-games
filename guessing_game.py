@@ -12,7 +12,6 @@ def guessing_game():
     print("Try to guess it in as few attempts as possible.")
     print("--------------------------------------------------")
 
-
     guess_numer = random.randint(1, 100)
     tries = 0
     
@@ -39,7 +38,6 @@ def guessing_game():
 
 def main():
     guessing_game()
-
 
 if __name__ == "__main__":
     main()
